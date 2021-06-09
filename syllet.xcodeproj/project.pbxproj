@@ -52,6 +52,7 @@
 		A0564CC82671003C001D4350 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A0564CE22671015E001D4350 /* syllet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = syllet.entitlements; sourceTree = "<group>"; };
 		A0564CE326710183001D4350 /* syllet--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "syllet--iOS--Info.plist"; sourceTree = "<group>"; };
+		A0564CE426710286001D4350 /* syllet--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "syllet--macOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		A0564C9F2671003A001D4350 = {
 			isa = PBXGroup;
 			children = (
+				A0564CE426710286001D4350 /* syllet--macOS--Info.plist */,
 				A0564CE326710183001D4350 /* syllet--iOS--Info.plist */,
 				A0564CE22671015E001D4350 /* syllet.entitlements */,
 				A0564CA42671003A001D4350 /* Shared */,
@@ -462,8 +464,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = syllet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "syllet--iOS--Info.plist";
@@ -481,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
 				PRODUCT_NAME = syllet;
 				SDKROOT = iphoneos;
@@ -498,8 +502,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = syllet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "syllet--iOS--Info.plist";
@@ -517,7 +523,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
 				PRODUCT_NAME = syllet;
 				SDKROOT = iphoneos;
@@ -541,12 +547,16 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "syllet--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = syllet;
+				INFOPLIST_KEY_CFBundleName = syllet;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
 				PRODUCT_NAME = syllet;
@@ -568,12 +578,16 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "syllet--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = syllet;
+				INFOPLIST_KEY_CFBundleName = syllet;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
 				PRODUCT_NAME = syllet;
