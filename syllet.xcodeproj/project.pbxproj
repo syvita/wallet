@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0564CBF2671003C001D4350 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CBE2671003C001D4350 /* Tests_iOS.swift */; };
+		A0564CC92671003C001D4350 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CC82671003C001D4350 /* Tests_macOS.swift */; };
+		A0564CCA2671003C001D4350 /* syllet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA52671003A001D4350 /* syllet.xcdatamodeld */; };
+		A0564CCB2671003C001D4350 /* syllet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA52671003A001D4350 /* syllet.xcdatamodeld */; };
+		A0564CCC2671003C001D4350 /* sylletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA72671003A001D4350 /* sylletApp.swift */; };
+		A0564CCD2671003C001D4350 /* sylletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA72671003A001D4350 /* sylletApp.swift */; };
+		A0564CCE2671003C001D4350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA82671003A001D4350 /* ContentView.swift */; };
+		A0564CCF2671003C001D4350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA82671003A001D4350 /* ContentView.swift */; };
+		A0564CD02671003C001D4350 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA92671003A001D4350 /* Persistence.swift */; };
+		A0564CD12671003C001D4350 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0564CA92671003A001D4350 /* Persistence.swift */; };
+		A0564CD22671003C001D4350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0564CAA2671003C001D4350 /* Assets.xcassets */; };
+		A0564CD32671003C001D4350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0564CAA2671003C001D4350 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0564CBB2671003C001D4350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0564CA02671003A001D4350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0564CAE2671003C001D4350;
+			remoteInfo = "syllet (iOS)";
+		};
+		A0564CC52671003C001D4350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0564CA02671003A001D4350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0564CB42671003C001D4350;
+			remoteInfo = "syllet (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0564CA62671003A001D4350 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		A0564CA72671003A001D4350 /* sylletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sylletApp.swift; sourceTree = "<group>"; };
+		A0564CA82671003A001D4350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0564CA92671003A001D4350 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A0564CAA2671003C001D4350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0564CAF2671003C001D4350 /* syllet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syllet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0564CB52671003C001D4350 /* syllet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syllet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0564CBA2671003C001D4350 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0564CBE2671003C001D4350 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A0564CC42671003C001D4350 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0564CC82671003C001D4350 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0564CAC2671003C001D4350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CB22671003C001D4350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CB72671003C001D4350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CC12671003C001D4350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0564C9F2671003A001D4350 = {
+			isa = PBXGroup;
+			children = (
+				A0564CA42671003A001D4350 /* Shared */,
+				A0564CBD2671003C001D4350 /* Tests iOS */,
+				A0564CC72671003C001D4350 /* Tests macOS */,
+				A0564CB02671003C001D4350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0564CA42671003A001D4350 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A0564CA72671003A001D4350 /* sylletApp.swift */,
+				A0564CA82671003A001D4350 /* ContentView.swift */,
+				A0564CA92671003A001D4350 /* Persistence.swift */,
+				A0564CAA2671003C001D4350 /* Assets.xcassets */,
+				A0564CA52671003A001D4350 /* syllet.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A0564CB02671003C001D4350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0564CAF2671003C001D4350 /* syllet.app */,
+				A0564CB52671003C001D4350 /* syllet.app */,
+				A0564CBA2671003C001D4350 /* Tests iOS.xctest */,
+				A0564CC42671003C001D4350 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0564CBD2671003C001D4350 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0564CBE2671003C001D4350 /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A0564CC72671003C001D4350 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0564CC82671003C001D4350 /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0564CAE2671003C001D4350 /* syllet (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0564CD62671003C001D4350 /* Build configuration list for PBXNativeTarget "syllet (iOS)" */;
+			buildPhases = (
+				A0564CAB2671003C001D4350 /* Sources */,
+				A0564CAC2671003C001D4350 /* Frameworks */,
+				A0564CAD2671003C001D4350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "syllet (iOS)";
+			productName = "syllet (iOS)";
+			productReference = A0564CAF2671003C001D4350 /* syllet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0564CB42671003C001D4350 /* syllet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0564CD92671003C001D4350 /* Build configuration list for PBXNativeTarget "syllet (macOS)" */;
+			buildPhases = (
+				A0564CB12671003C001D4350 /* Sources */,
+				A0564CB22671003C001D4350 /* Frameworks */,
+				A0564CB32671003C001D4350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "syllet (macOS)";
+			productName = "syllet (macOS)";
+			productReference = A0564CB52671003C001D4350 /* syllet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0564CB92671003C001D4350 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0564CDC2671003C001D4350 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A0564CB62671003C001D4350 /* Sources */,
+				A0564CB72671003C001D4350 /* Frameworks */,
+				A0564CB82671003C001D4350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0564CBC2671003C001D4350 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A0564CBA2671003C001D4350 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A0564CC32671003C001D4350 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0564CDF2671003C001D4350 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A0564CC02671003C001D4350 /* Sources */,
+				A0564CC12671003C001D4350 /* Frameworks */,
+				A0564CC22671003C001D4350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0564CC62671003C001D4350 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A0564CC42671003C001D4350 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0564CA02671003A001D4350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A0564CAE2671003C001D4350 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A0564CB42671003C001D4350 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A0564CB92671003C001D4350 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0564CAE2671003C001D4350;
+					};
+					A0564CC32671003C001D4350 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0564CB42671003C001D4350;
+					};
+				};
+			};
+			buildConfigurationList = A0564CA32671003A001D4350 /* Build configuration list for PBXProject "syllet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0564C9F2671003A001D4350;
+			productRefGroup = A0564CB02671003C001D4350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0564CAE2671003C001D4350 /* syllet (iOS) */,
+				A0564CB42671003C001D4350 /* syllet (macOS) */,
+				A0564CB92671003C001D4350 /* Tests iOS */,
+				A0564CC32671003C001D4350 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0564CAD2671003C001D4350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0564CD22671003C001D4350 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CB32671003C001D4350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0564CD32671003C001D4350 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CB82671003C001D4350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CC22671003C001D4350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0564CAB2671003C001D4350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0564CCC2671003C001D4350 /* sylletApp.swift in Sources */,
+				A0564CD02671003C001D4350 /* Persistence.swift in Sources */,
+				A0564CCA2671003C001D4350 /* syllet.xcdatamodeld in Sources */,
+				A0564CCE2671003C001D4350 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CB12671003C001D4350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0564CCD2671003C001D4350 /* sylletApp.swift in Sources */,
+				A0564CD12671003C001D4350 /* Persistence.swift in Sources */,
+				A0564CCB2671003C001D4350 /* syllet.xcdatamodeld in Sources */,
+				A0564CCF2671003C001D4350 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CB62671003C001D4350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0564CBF2671003C001D4350 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0564CC02671003C001D4350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0564CC92671003C001D4350 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0564CBC2671003C001D4350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0564CAE2671003C001D4350 /* syllet (iOS) */;
+			targetProxy = A0564CBB2671003C001D4350 /* PBXContainerItemProxy */;
+		};
+		A0564CC62671003C001D4350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0564CB42671003C001D4350 /* syllet (macOS) */;
+			targetProxy = A0564CC52671003C001D4350 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0564CD42671003C001D4350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0564CD52671003C001D4350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A0564CD72671003C001D4350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
+				PRODUCT_NAME = syllet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0564CD82671003C001D4350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
+				PRODUCT_NAME = syllet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0564CDA2671003C001D4350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
+				PRODUCT_NAME = syllet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A0564CDB2671003C001D4350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.syvita.syllet;
+				PRODUCT_NAME = syllet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A0564CDD2671003C001D4350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.syvita.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "syllet (iOS)";
+			};
+			name = Debug;
+		};
+		A0564CDE2671003C001D4350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.syvita.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "syllet (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0564CE02671003C001D4350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.syvita.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "syllet (macOS)";
+			};
+			name = Debug;
+		};
+		A0564CE12671003C001D4350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.syvita.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "syllet (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0564CA32671003A001D4350 /* Build configuration list for PBXProject "syllet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0564CD42671003C001D4350 /* Debug */,
+				A0564CD52671003C001D4350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0564CD62671003C001D4350 /* Build configuration list for PBXNativeTarget "syllet (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0564CD72671003C001D4350 /* Debug */,
+				A0564CD82671003C001D4350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0564CD92671003C001D4350 /* Build configuration list for PBXNativeTarget "syllet (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0564CDA2671003C001D4350 /* Debug */,
+				A0564CDB2671003C001D4350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0564CDC2671003C001D4350 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0564CDD2671003C001D4350 /* Debug */,
+				A0564CDE2671003C001D4350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0564CDF2671003C001D4350 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0564CE02671003C001D4350 /* Debug */,
+				A0564CE12671003C001D4350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0564CA52671003A001D4350 /* syllet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0564CA62671003A001D4350 /* Shared.xcdatamodel */,
+			);
+			currentVersion = A0564CA62671003A001D4350 /* Shared.xcdatamodel */;
+			path = syllet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0564CA02671003A001D4350 /* Project object */;
+}
